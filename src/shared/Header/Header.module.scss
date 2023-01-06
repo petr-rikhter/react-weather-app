@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  font-size: 40px;
+
+  .logo {
+    svg {
+      width: 65px;
+      height: 65px;
+    }
+  }
+
+  .title {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4793ff;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .theme {
+    display: flex;
+    align-items: center;
+  }
+}
