@@ -17,8 +17,12 @@ export const ThisDay = (props: Props) => {
         </div>
       </div>
       <div className={s.bottom__block}>
-        <div className={s.time}>Время: 21:54</div>
-        <div className={s.town}>Город: Санкт-Петербург</div>
+        <div className={s.time}>
+          Время: <span>21:54</span>
+        </div>
+        <div className={s.town}>
+          Город: <span>Санкт-Петербург</span>
+        </div>
       </div>
     </div>
   );
