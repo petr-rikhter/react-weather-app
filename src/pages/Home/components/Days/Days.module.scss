@@ -1,0 +1,46 @@
+@import "../../../../styles/variables.scss";
+
+.days {
+  display: flex;
+  justify-content: space-between;
+
+  background: $lite-background;
+  box-shadow: $box-shadow;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  background: $card-lite-background;
+  width: 150px;
+  border-radius: 10px;
+  padding: 11px;
+}
+.dayWeek {
+  font-size: 18px;
+  color: $lite-color;
+}
+.day__info {
+  font-size: 14px;
+  color: $base-color;
+}
+.icon__id {
+  width: 48px;
+  height: 48px;
+}
+.temp__day {
+  font-size: 18px;
+  color: $lite-color;
+}
+.temp_night {
+  font-size: 13px;
+  color: $base-color;
+}
+.info {
+  font-size: 13px;
+  color: $base-color;
+}

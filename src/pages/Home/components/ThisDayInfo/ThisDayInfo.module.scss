@@ -17,7 +17,7 @@
   img {
     position: absolute;
 
-    right: 0;
+    right: -100px;
     top: 0;
   }
 
@@ -30,6 +30,7 @@
     background-color: #fff;
     box-shadow: 1px 4px 10px -1px rgba(71, 147, 255, 0.2);
     border-radius: 50%;
+    z-index: 1;
   }
 
   .title {
